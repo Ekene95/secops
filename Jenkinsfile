@@ -4,7 +4,7 @@ pipeline {
   stages {
     stage('Daily Compliance Run') {
       steps{
-        echo 'Running a compliance scan with inspec....'
+        echo 'Running a compliance scan with inspec.... Results will be shown soon....'
           script{
             def remote = [:]
             remote.name = "controlnode"
